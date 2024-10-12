@@ -15,6 +15,7 @@ jobs:
         working-directory: plantify-frontend
         run: npm ci && npm run build
       - name: Deploy to Firebase
+        working-directory: .
         uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: ${{ secrets.GITHUB_TOKEN }}
