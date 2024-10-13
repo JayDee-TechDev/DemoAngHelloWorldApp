@@ -2,7 +2,7 @@
 
 plantify-frontend/
 !plantify-frontend/firebase.json
-
+!firebase.json
 
 # Compiled output
 /dist
